@@ -15,10 +15,10 @@ void StringStore::insert(const std::string& str) {//O(l*log(n))
 	auto it = store.find(str);
 
 	if (it != store.end()) {
-
+         //if the string already exists, increase its frequency by one.
 		it->second += 1;
 
-		// insert a new string into the store with frequency 1 somewhere in the middle of the store
+		
 
 	}
 	// insert a new string into the store with frequency 1 at the end of the store
